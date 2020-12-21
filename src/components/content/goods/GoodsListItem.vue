@@ -1,6 +1,6 @@
 <template>
   <div class="goods_item" @click="itemClick">
-    <img :src="showImage" alt="" @load="imageLoad">
+    <img v-lazy="showImage" alt="" @load="imageLoad">
     <div class="titles">
       <p>{{ goodsItem.title }}</p>
       <div class="details">
@@ -87,7 +87,7 @@
   .details img {
     width: 14px;
     height: 14px;
-    padding-right: 3px;
+    /*padding-right: 3px;*/
     vertical-align: middle;
   }
 

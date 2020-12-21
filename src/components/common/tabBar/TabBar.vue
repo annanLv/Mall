@@ -13,6 +13,7 @@
 <style scoped>
   #tab-bar {
     position: fixed;
+    /*z-index: 999;*/
     left: 0;
     right: 0;
     bottom: 0;

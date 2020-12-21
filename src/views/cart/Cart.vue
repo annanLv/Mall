@@ -6,8 +6,6 @@
     </nav-bar>
     <!-- 商品列表 -->
     <cart-list/>
-    <h2>购物车</h2>
-
     <!-- 商品汇总 -->
     <cart-bottom-bar/>
   </div>
